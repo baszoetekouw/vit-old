@@ -174,11 +174,11 @@ sub getch_loop {
         last CASE;
       }
 
-      if ( $ch eq 't' ) {
+      if ( $ch eq 'T' ) {
         &ungetstr(':!rw task ')
       }
 
-      if ( $ch eq 'T' ) {
+      if ( $ch eq 't' ) {
         &task_set_tag();
         last CASE;
       }

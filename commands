@@ -3,7 +3,7 @@
  cmd   A STRING        add an annotation to the current task
  cmd   m STRING        modify the current task
  cmd   :![rw] STRING   execute "STRING" in shell. 'r' rereads, 'w' waits
- cmd   t               prepend the command prompt with ":!rw task "
+ cmd   T               prepend the command prompt with ":!rw task "
  cmd   :s/OLD/NEW/     change OLD to NEW in the current task's description
  cmd   :%s/OLD/NEW/    change OLD to NEW in the current task's description
  cmd   D               denotate if over annotation, delete task if on first line
@@ -48,9 +48,9 @@
  cmd   p STRING        set the current task's project to STRING
  cmd   p STRING<tab>   set the current task's project to STRING using tab completion
  cmd   p <tab>         set the current task's project using tab completion
- cmd   T +STRING       add the tag STRING to the current task
- cmd   T -STRING       remove the tasg STRING from the current task
- cmd   T <tab>         add tags to the current task using tab completion
+ cmd   t +STRING       add the tag STRING to the current task
+ cmd   t -STRING       remove the tasg STRING from the current task
+ cmd   t <tab>         add tags to the current task using tab completion
  help  :h              view the whole help file
  help  :h cmd          view help about commands
  help  :h help         view help about help
